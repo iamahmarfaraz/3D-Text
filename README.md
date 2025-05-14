@@ -1,4 +1,5 @@
 
+
 # 🍩 Three.js “Donut Text” Playground
 
 A small interactive Three.js demo that:
@@ -45,7 +46,6 @@ A small interactive Three.js demo that:
    ```bash
    git clone https://github.com/your‑username/lecture13-3d-text.git
    cd lecture13-3d-text
-````
 
 2. **Install dependencies**
 
@@ -74,7 +74,6 @@ To tweak parameters (donut count, matcap, text), edit the top of `src/main.js` o
 
 ## 📂 Project Structure
 
-```
 .
 ├── index.html
 ├── package.json
