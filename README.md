@@ -1,3 +1,5 @@
+Here’s the exact contents you should put into your **README.md** (no extra backticks or fences—just paste these lines verbatim):
+
 ````markdown
 # 🍩 Three.js “Donut Text” Playground
 
@@ -22,7 +24,7 @@ A small interactive Three.js demo that:
   - Mouse/touch drag to rotate the camera  
   - Inertia (“damping”) for smooth motion  
 - **Responsive & Fullscreen**  
-  - Canvas auto‑resizes on window `resize`  
+  - Canvas auto‑resizes on window `resize`  
   - Double‑click to toggle fullscreen  
 - **Debug GUI**  
   - Press `H` to hide/show the lil‑GUI panel  
@@ -34,8 +36,8 @@ A small interactive Three.js demo that:
 
 - [Three.js](https://threejs.org) r152  
 - `lil-gui` for on‑screen controls  
-- `gsap` for timeline‐based animations  
-- Vite or your favorite bundler to serve ES modules  
+- `gsap` for timeline‑based animations  
+- Vite (or your favorite bundler)  
 
 ---
 
@@ -43,8 +45,8 @@ A small interactive Three.js demo that:
 
 1. **Clone this repo**  
    ```bash
-   git clone https://github.com/your‑username/threejs‑donut‑text.git
-   cd threejs‑donut‑text
+   git clone https://github.com/your‑username/lecture13-3d-text.git
+   cd lecture13-3d-text
 ````
 
 2. **Install dependencies**
@@ -57,7 +59,7 @@ A small interactive Three.js demo that:
    ```bash
    npm run dev
    ```
-4. **Open** `http://localhost:3000` (or whatever port Vite shows)
+4. **Open** `http://localhost:3000` in your browser.
 
 ---
 
@@ -68,7 +70,7 @@ A small interactive Three.js demo that:
 * **Fullscreen**: double‑click canvas
 * **Hide GUI**: press `H`
 
-To tweak parameters (e.g. donut count, matcap, text string), edit the variables at the top of `main.js` or hook them up in the GUI folder.
+To tweak parameters (donut count, matcap, text), edit the top of `src/main.js` or hook them into the GUI.
 
 ---
 
@@ -101,3 +103,14 @@ To tweak parameters (e.g. donut count, matcap, text string), edit the variables 
 
 Enjoy experimenting with Three.js, and feel free to ⭐ the repo if you find it useful!
 
+```
+
+**Instructions:**
+
+1. Open your `README.md` in your project root.  
+2. Delete its current contents.  
+3. Paste the above text **exactly**.  
+4. Save, commit, and push.  
+
+Your README will now render correctly on GitHub as formatted Markdown.
+```
