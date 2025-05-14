@@ -13,8 +13,8 @@ import gsap from 'gsap';
 
 //way2 of loading font - much easier-just copy ur font &
 //license from node_modules/three/examples/fonts and paste it in static/font
-import ttf from '../static/fonts/helvetiker_regular.typeface.json'
-console.log(ttf);
+// import ttf from '/fonts/helvetiker_regular.typeface.json'
+// console.log(ttf);
 
 
 // WAY3 - FONTLOADER
@@ -133,7 +133,7 @@ loadingManager.onStart = () =>
 
 // === Texture Loader ===
 const textureLoader = new THREE.TextureLoader(loadingManager);
-const matcapTexture = textureLoader.load('../static/textures/matcaps/8.png')
+const matcapTexture = textureLoader.load('/textures/matcaps/8.png')
 matcapTexture.colorSpace = THREE.SRGBColorSpace
 matcapTexture.generateMipmaps = false;
 matcapTexture.minFilter = THREE.NearestFilter;
@@ -143,7 +143,7 @@ matcapTexture.magFilter = THREE.NearestFilter
 
 // === 3D Text ===
 fontLoader.load(
-  '../static/fonts/helvetiker_regular.typeface.json',
+  '/fonts/helvetiker_regular.typeface.json',
   (font) => {
     const textGeo = new TextGeometry('Hello, Three.js !', {
       font:           font,    // the font you loaded
