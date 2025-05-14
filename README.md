@@ -101,5 +101,5 @@ To tweak parameters (donut count, matcap, text), edit the top of `src/main.js` o
 
 Enjoy experimenting with Three.js, and feel free to ⭐ the repo if you find it useful!
 
-```
+
 
