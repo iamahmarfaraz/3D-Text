@@ -1,6 +1,4 @@
-Here’s the exact contents you should put into your **README.md** (no extra backticks or fences—just paste these lines verbatim):
 
-````markdown
 # 🍩 Three.js “Donut Text” Playground
 
 A small interactive Three.js demo that:
@@ -102,15 +100,3 @@ To tweak parameters (donut count, matcap, text), edit the top of `src/main.js` o
 * **Mobile optimizations**: reduce geometry on small screens
 
 Enjoy experimenting with Three.js, and feel free to ⭐ the repo if you find it useful!
-
-```
-
-**Instructions:**
-
-1. Open your `README.md` in your project root.  
-2. Delete its current contents.  
-3. Paste the above text **exactly**.  
-4. Save, commit, and push.  
-
-Your README will now render correctly on GitHub as formatted Markdown.
-```
